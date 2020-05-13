@@ -1,16 +1,9 @@
----
-title: "Bluetooth Stack (BlueZ)"
-header:
-  image: images/main_network1.jpg
-  teaser: images/network.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - Bluetooth
-  - BT
-  - Bluetooth-Stack
-categories:
-  - System
----
++++
+title = "Bluetooth Stack (BlueZ)"
+date = 2016-11-07
+weight = 300
+tags = ["bluetooth", "blueZ"]
++++
 
 {% include toc %}
 

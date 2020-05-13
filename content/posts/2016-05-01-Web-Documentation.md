@@ -1,14 +1,9 @@
----
-title: "Create a website using Jekyll"
-header:
-  image: images/main_doc1_1024.jpg
-  teaser: images/main_doc1_1024.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - Website
-categories:
-  - Web & Mobile
----
++++
+title = "Create a website using Jekyll"
+date = 2016-05-01
+weight = 200
+tags = ["Jekyll"]
++++
 
 {% include toc %}
 

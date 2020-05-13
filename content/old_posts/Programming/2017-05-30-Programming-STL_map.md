@@ -1,16 +1,9 @@
----
-title: "STL Map - C & C++"
-header:
-  image: images/main_algorithm1.jpg
-  teaser: images/main_algorithm1.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - Dictionary
-  - Map
-  - STL
-categories:
-  - Programming
----
++++
+title = "STL Map: C/C++"
+date = 2017-05-30
+weight = 500
+tags = ["STL", "map"]
++++
 
 # STL Maps -- Associative Arrays
 

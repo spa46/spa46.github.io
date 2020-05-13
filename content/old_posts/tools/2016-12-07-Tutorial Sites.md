@@ -1,14 +1,9 @@
----
-title: "Programming Tutorial Sites"
-header:
-  image:
-  teaser:
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-
-categories:
-  - Programming
----
++++
+title = "Programming Competition Sites"
+date = 2016-12-07
+weight = 200
+tags = ["programming"]
++++
 
 Recommendation for basic web programming tutorial sites:
 

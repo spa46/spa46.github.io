@@ -1,15 +1,9 @@
----
-title: "GStreamer"
-header:
-  image: images/main_doc1_1024.jpg
-  teaser: images/main_doc1_1024.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - gstreamer
-  - porting gstreamer
-categories:
-  - System
----
++++
+title = "GStreamer"
+date = 2016-11-20
+weight = 400
+tags = ["system", "gstreamer"]
++++
 
 {% include toc %}
 

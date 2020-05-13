@@ -1,15 +1,9 @@
----
-title: "Ionic Framework"
-header:
-  image: images/main_doc1_1024.jpg
-  teaser: images/iphone.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - Ionic
-  - MobileWebApp
-categories:
-  - Web & Mobile
----
++++
+title = "Ionic Framework"
+date = 2017-11-21
+weight = 600
+tags = ["Ionic", "WebApp"]
++++
 
 {% include toc %}
 

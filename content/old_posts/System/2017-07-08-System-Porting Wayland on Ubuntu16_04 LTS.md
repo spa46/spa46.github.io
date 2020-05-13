@@ -1,16 +1,9 @@
----
-title: "Wayland Porting(on Ubuntu 16.04 LTS)"
-header:
-  image: images/main_system1.jpg
-  teaser: images/main_system1.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - weston
-  - wayland
-  - X11
-categories:
-  - System
----
++++
+title = "Wayland"
+date = 2017-07-08
+weight = 500
+tags = ["wayland"]
++++
 
 # Porting Weston-Wayland
 

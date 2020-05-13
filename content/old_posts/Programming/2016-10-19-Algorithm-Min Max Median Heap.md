@@ -1,16 +1,9 @@
----
-title: "Min-Max Median Heap: Array vs Priority Queue"
-header:
-  image:
-  teaser: 
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - MinMax-Heap
-  - Median-Heap
-  - gnuplot
-categories:
-  - Algorithm
----
++++
+title = "Min-Max Median Heap: Array vs Priority Queue"
+date = 2016-10-19
+weight = 400
+tags = ["Heap", "MinMax-Heap", "Median-Heap"]
++++
 
 One of the way of getting track of median in real-time: using two heaps (Min & Max heaps)
 

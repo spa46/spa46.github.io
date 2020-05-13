@@ -1,15 +1,9 @@
----
-title: "valgrind (Memory Management Tool)"
-header:
-  image: images/main_algorithm1.jpg
-  teaser: images/main_algorithm1.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - valgrind
-  - memory-leak
-categories:
-  - Tool
----
++++
+title = "valgrind"
+date = 2017-07-08
+weight = 400
+tags = ["memory-leak", "valgrind"]
++++
 
 # Valgrind
 

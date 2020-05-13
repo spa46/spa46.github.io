@@ -1,15 +1,9 @@
----
-title: "Documentation: Gnuplot"
-header:
-  image: images/main_doc1_1024.jpg
-  teaser: images/gnuplot_bg1.png
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - gnuplot
-  - gnuplot-iostream
-categories:
-  - Tool
----
++++
+title = "Gnuplot"
+date = 2016-10-19
+weight = 100
+tags = ["gnuplot"]
++++
 
 {% include toc %}
 

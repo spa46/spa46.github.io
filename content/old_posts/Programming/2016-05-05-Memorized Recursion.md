@@ -1,25 +1,25 @@
----
-date: 2016-05-05
-title: "Memorized recursion (DP)"
-weight: 9999
-tags: ["dynamic programming", "memorized recursion"]
----
++++
+title = "Memorized recursion (DP)"
+date = 2016-05-05
+weight = 100
+tags = ["dynamic programming", "memorized recursion"]
++++
 
-Recursion, it sometimes enhances readability and reduce code size even though some may feel difficult to trace the code. One of the good example of using it is "memorized recursion".
+Recursion enhances readability and reduce code size. On the other hand, it is difficult to trace the code. One of the good example of using it is "memorized recursion".
 
-This is an example:
+Example:
 
 ```
-	Assume, there is a 2D graph start from (0,0) and it wants to reach to (5,4).
-	How many ways to reach to the desination?
+Assume, there is a 2D graph start from (0,0) and it wants to reach to (5,4).
+How many ways to reach to the desination?
 ```
 
-what could be the best approach above? <br>
+what could be the best approach? <br>
 Mathmatical or graph such as DFS, BFS or recursion?
 
-To see it in brief, first, memorized recursion and dynamic prgoramming method would be illustrated and then, mathmatical and graph would come at second.
+Let's have a look at memorized recursion and dynamic prgoramming
 
-## Memorized Recursion
+# Memorized Recursion
 
 <br>Below is the conversion of the problem into tree.<br><br>
 ![tree](/images/algorithm/dynprog/tree.png)

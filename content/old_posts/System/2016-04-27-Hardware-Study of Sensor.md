@@ -1,13 +1,9 @@
----
-title: "Study of Hardware Sensors"
-header:
-  image: images/main_hw1.jpg
-  teaser: images/circuit-board_640.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag: sensor
-categories:
-  - Hardware
----
++++
+title = "Hardware Sensors"
+date = 2016-04-27
+weight = 100
+tags = ["sensors"]
++++
 
 {% include toc %}
 

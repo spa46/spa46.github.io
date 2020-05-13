@@ -1,22 +1,9 @@
----
-title: "Hashmap VS Hashset (including HashMulti)"
-header:
-  image: images/main_algorithm1.jpg
-  teaser: images/hashtag_640.jpg
-  caption: "Photo credit: [**pixabay**](https://pixabay.com)"
-tag:
-  - Hash
-  - Hashtable
-  - Hashset
-  - Hashmap
-  - HashMultiset
-  - HashMultimap
-  - Map
-  - Set
-  - Algorithm
-categories:
-  - Algorithm
----
++++
+title = "Hash Comparisons"
+date = 2016-10-10
+weight = 300
+tags = ["algorithm", "hash"]
++++
 
 # map and set with and without hash
 
