@@ -2,7 +2,7 @@
 title = "GStreamer"
 date = 2016-11-20
 weight = 400
-tags = ["system", "gstreamer"]
+tags = ["gstreamer"]
 +++
 
 {% include toc %}
