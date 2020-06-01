@@ -11,25 +11,24 @@ tags = ["Ionic", "WebApp"]
 Ionic is a complete open-source SDK for hybrid mobile app development built on top of AngularJS and Apache Cordova. this helps developing hybrid mobile apps using Web technologies like CSS, HTML5, and Sass.
 
 # Cons & Pros
-The purpose of using Ionic is that I can deploy both Android and IOS; furthermore even web, within same code.
-So it would save my time to develop apps. However, generally, people say that this is bit slower than native apps.
+The purpose of using Ionic is that I can deploy both Android and IOS; furthermore even web, within the same code.
+So it would save my time to develop apps. However, generally, people say that this is a bit slower than native apps.
 
 
 # Type
 Ionic supports two types: `Ionic1` and `Ionic2`. <br>
 Ionic 1 based on Angular 1 where Ionic 2 based on Angular 2
-<!--
 The advantage of Ionic 1:
 
 	More classic than Ionic 1.
-	Older than Ionic 2, so bit more stable.
+	Older than Ionic 2, so a bit more stable.
 -->
 
 The advantage of Ionic 2 over Ionic 1 is:
 
 	Angular 2 is faster
-	Angular2 use components instead of controller (developer feels simpler)
-	Angular2 has simpler directive
+	Angular2 use components instead of the controller (developer feels simpler)
+	Angular2 has a simpler directive
 	intuitive data binding
 
 # Requirements
@@ -64,7 +63,7 @@ The advantage of Ionic 2 over Ionic 1 is:
 		if this is unable to install, try this:
 			sudo npm install -g ios-deploy --unsafe-perm=true
 
-First of all, tried OS X (Yosemite) installation on virtual machine, but was unstable (hang while booting and etc). Therefore, for second, "El Capitan" was installed; however, after few hours of using it, it has been realized that running both Android and IOS on OS X on top of virtual machine is difficult. Therefore, it is recommended to have Macbook pro for mobile and web development.   
+First of all, tried OS X (Yosemite) installation on a virtual machine, but was unstable (hang while booting, etc). Therefore, for the second, "El Capitan" was installed; however, after few hours of using it, it has been realized that running both Android and IOS on OS X on top of the virtual machine is difficult. Therefore, it is recommended to have a Macbook pro for mobile and web development.   
 
 # El Capitan Installation reference for Virtual box
 

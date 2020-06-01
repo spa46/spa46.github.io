@@ -11,7 +11,7 @@ tags = ["bluetooth", "blueZ"]
 
 - **Bluetooth BR/EDR (Basic Rate / Enhanced Data Rate)**: In short, it supports small coverage and dedicates continuous connections.  
 
-- **Bluetooth LE (Low Energy)**: Supports longer coverage than Bluetooth BR/EDR and it is idel for sending data for short amount of time such as **IoT (Internet of Things) Environment**. Moreover,     
+- **Bluetooth LE (Low Energy)**: Supports longer coverage than Bluetooth BR/EDR and it is ideal for sending data for a short amount of time such as **IoT (Internet of Things) Environment**. Moreover,     
 
 - **Dual-Mode**: Supports both of two modes.
 
@@ -32,7 +32,7 @@ It is an official Linux Bluetooth stack. It provides support for core Bluetooth 
 - L2CAP module
 - Configuration and testing utilities
 
-Required pakcages:
+Required packages:
 
 - Bluez-Firmware
 - Bluez
@@ -79,19 +79,19 @@ BT:
 
 ![Bluetooth Driver](/images/bluetooth/bt_driver.jpg)
 
-- **bluetooth.ko**: contains core infrastructure of BlueZ. It exports sockets of the Bluetooth family  AF_BLUETOOTH. All BlueZ modules utilise its services.
+- **bluetooth.ko**: contains the core infrastructure of BlueZ. It exports sockets of the Bluetooth family  AF_BLUETOOTH. All BlueZ modules utilize the services.
 
 - **hci_uart.ko & hci_usb.ko**: Correspond to BlueZ Bluetooth HCI implementation (Those HCI packets are transported over UART or USB).
 
-- **l2cap.ko**: Relates to L2CAP layer of Bluetooth, which is responsible for segmentation, reassembly and protocol multiplexing.
+- **l2cap.ko**: Relates to L2CAP layer of Bluetooth, which is responsible for segmentation, reassembly, and protocol multiplexing.
 
 - **bnep.ko**: By this, TCP/IP applications can run over Bluetooth. This emulates an Ethernet port over the L2CAP layer. The kernel thread named kbnepd is responsible for BNEP connections.
 
 - **rfcomm.ko**: Responsible for running serial port applications like the terminal. This emulates serial ports over the L2CAP layer. The kernel thread named krfcommd is responsible for RFCOMM connections.
 
-- **hidp.ko**: implements the HID (human interface device) layer. The user mode daemon hidd allows BlueZ to handle input devices like Bluetooth mice.
+- **hidp.ko**: implements the HID (human interface device) layer. The user-mode daemon allows BlueZ to handle input devices like Bluetooth mice.
 
-- **sco.ko**: implements the synchronous connection oriented (SCO) layer to handle audio. SCO connections do not specify a channel to connect to a remote host; only the host address is specified.
+- **sco.ko**: implements the synchronous connection-oriented (SCO) layer to handle audio. SCO connections do not specify a channel to connect to a remote host; only the host address is specified.
 
 ## Bluetooth Host
 
@@ -110,7 +110,7 @@ Part of the stack and from the stack, the **features** of the following are:
 
 - A serial port emulation protocol situated over the L2CAP layer. It emulates RS-232 control and data signals over the Bluetooth baseband.
 
-- Roughly the same service and reliability guarantees as TCP. Unlike to TCP, which provides 65,535 ports, RFCOMM allows only 30.
+- Roughly the same service and reliability guarantees as TCP. Unlike TCP, which provides 65,535 ports, RFCOMM allows only 30.
 
 **SDP (Service Discovery Protocol)**
 

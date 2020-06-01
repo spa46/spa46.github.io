@@ -7,7 +7,7 @@ tags = ["wayland"]
 
 # Porting Weston-Wayland
 
-Porting wayland is not as simple as you think because many packages are related to it and they have dependencies.
+Porting Wayland is not as simple as you think because many packages are related to it and they have dependencies.
 
 Wayland official website provides some guide but it is not fully covered (source version difference cloned from git).
 

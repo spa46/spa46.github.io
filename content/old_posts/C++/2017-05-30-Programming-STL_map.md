@@ -1,5 +1,5 @@
 +++
-title = "STL Map: C/C++"
+title = "STL Map"
 date = 2017-05-30
 weight = 500
 tags = ["STL", "map"]
@@ -7,9 +7,9 @@ tags = ["STL", "map"]
 
 # STL Maps -- Associative Arrays
 
-This is very useful to study associative array in C++.
-If you have used variety of programming languages, sometimes it could be confusing which to use.
-Associative Array is different concept compare to C language.
+This is very useful to study the associative array in C++.
+If you have used a variety of programming languages, sometimes it could be confusing which to use.
+Associative Array is a different concept compare to C language.
 
 **map class** is part of the std namespace and to use it:
 

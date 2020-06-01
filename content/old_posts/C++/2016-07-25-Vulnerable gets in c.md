@@ -1,15 +1,15 @@
 +++
-title = "vulnerability of using gets()"
+title = "Vulnerable gets() in C"
 date = 2016-07-25
 weight = 200
 tags = ["secure coding"]
 +++
 
-Recently, as the growth of advanced technology, more people concern about digital system vulnerability and the demand is continuously increasing as shown below.
+Recently, as the growth of advanced technology, more people concern about digital system vulnerability, and the demand is continuously increasing as shown below.
 
 ![tree](/images/secureCoding/seccode01.jpg)
 
-Particularly in C/C++, gets() has been deprecated due to security issue which can cause the program segmentation fault. For this reason, alternative functions are recommended: getdelim() or getline().
+Particularly in C/C++, gets() has been deprecated due to security issues which can cause the program segmentation fault. For this reason, alternative functions are recommended: getdelim() or getline().
 
 
 In this post, I studied what caused gets deprecated from the given code by gdb.
@@ -45,20 +45,20 @@ int  cookie:  7efff5b4
 ![tree](/images/secureCoding/seccode03.jpg)
 
 
-<b>Overflow</b> occured on buf, and the contents of cookie changed.
-i.e. cookie has value of 'a'
+<b>Overflow</b> occurred on buf, and the contents of cookie changed.
+i.e. cookie has a value of 'a'
 
 <br>
 
 # 3. input: 82 'a' characters as shown below
 ![tree](/images/secureCoding/seccode04.jpg)
 
-<b>Overflow</b> occured on buf, and the contents of cookie changed.
-i.e. cookie has value of 'aa'
+<b>Overflow</b> occurred on buf, and the contents of cookie changed.
+i.e. cookie has a value of 'aa'
 
 <br>
 
 # 4. input: 83 'a' characters as shown below
 ![tree](/images/secureCoding/seccode05.jpg)
 
-<b>Segmentation fault</b> occured.
+<b>Segmentation fault</b> occurred.

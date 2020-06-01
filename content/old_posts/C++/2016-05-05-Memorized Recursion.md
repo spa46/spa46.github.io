@@ -1,40 +1,40 @@
 +++
-title = "Memorized recursion (DP)"
+title = "Memorized recursion"
 date = 2016-05-05
 weight = 100
 tags = ["dynamic programming", "memorized recursion"]
 +++
 
-Recursion enhances readability and reduce code size. On the other hand, it is difficult to trace the code. One of the good example of using it is "memorized recursion".
+Recursion enhances readability by the small size of code compare to iteration. On the other hand, tracing the code is difficult. One of a good example is using "Memorized Recursion".
 
 Example:
 
 ```
-Assume, there is a 2D graph start from (0,0) and it wants to reach to (5,4).
-How many ways to reach to the desination?
+Assume, there is a 2D connected graph starting from (0,0) ending (5,4).
+How many ways are there to reach the destination?
 ```
 
-what could be the best approach? <br>
-Mathmatical or graph such as DFS, BFS or recursion?
+What was the best approach? <br>
+Using Mathematical ways or using graphs such as DFS, BFS or recursion?
 
-Let's have a look at memorized recursion and dynamic prgoramming
+Let's have a look at Memorized Recursion in dynamic programming
 
 # Memorized Recursion
 
-<br>Below is the conversion of the problem into tree.<br><br>
+<br>Below is the conversion of the problem into a tree.<br><br>
 ![tree](/images/algorithm/dynprog/tree.png)
 
-<br>However, there are redundancies as shown in below figure.<br><br>
+<br>However, there are redundancies as shown in the below figure.<br><br>
 ![tree](/images/algorithm/dynprog/tree_redundant.png)
 
-<br>We could optimize the redundancies and can express it as below.<br><br>
+<br>We can optimize it and express it in the following way.<br><br>
 ![tree](/images/algorithm/dynprog/tree_improved.png)
 
 <br>Nodes which is already explored could store its value in memory. <br>
 	For example, after a visit to (1,1), **35** is stored in node (1,1).<br><br>
 ![tree](/images/algorithm/dynprog/tree_improved_path.png)
 
-<br>After the first visit, the value 35 could be retrieved by accessing (1,1).<br><br>
+<br>After the first visit, the value of 35 could be retrieved by accessing (1,1).<br><br>
 ![tree](/images/algorithm/dynprog/tree_improved_path2.png)
 
 	/* Example of recursive memorization */
@@ -78,11 +78,11 @@ Let's have a look at memorized recursion and dynamic prgoramming
 To solve the problem, we can think of using ***Depth First Search(DFS)*** and ***Breadth First Search (BFS)***.
 However, it seems this would be an ineffective solution because each node needs to be visited without pruning. The greater the size becomes, the longer it takes.
 
-## Mathmatical Approach
+## Mathematical Approach
 
 The question is in other words, we can say it differently in following way: "How many paths are there if you move 5 to the right and 4 to the up?" or "9 steps could be moved to the right and how many patterns are there if you move up 4 steps"
 
-In this case, we can use ***combination*** method: 9C4 = 126.
+In this case, we can use a ***combination*** method: 9C4 = 126.
 
 
 

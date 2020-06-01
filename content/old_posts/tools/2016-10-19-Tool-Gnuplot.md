@@ -9,7 +9,7 @@ tags = ["gnuplot"]
 
 # Introduction
 
-Gnuplot(freeware) is a command-driven, interactive, function and data plotting program for producing 2D and 3D graph. Although, This does not have many features compared to commerical plotting software, it isn’t complex to use. Therefore, it is ideal for users those who do not want to learn a difficult major tools.  
+Gnuplot(freeware) is a command-driven, interactive, function, and data plotting program for producing a 2D and 3D graph. Although, This does not have many features compared to commercial plotting software, it isn’t complex to use. Therefore, it is ideal for users for those who do not want to learn tools that are difficult to learn and use.
 <br>
 <br>
 <br>
@@ -90,7 +90,7 @@ Gnuplot(freeware) is a command-driven, interactive, function and data plotting p
 
 # C++ library
 
-There is a C++ library for easy use: gnuplot-iostream interface. This basically pushes data arrays and mouse clicks using iostream pipe to plot the data with extrafunctions. This low level interface simply use std::vector<std::vector<std::pair<double, double>>> to push data.
+There is a C++ library for easy use: gnuplot-iostream interface. This pushes data arrays and mouse clicks using the iostream pipe to plot the data with extra functions. This low level interface simply use std::vector<std::vector<std::pair<double, double>>> to push data.
 
 ### Documentation
 For a documentation, click [here](https://github.com/dstahlke/gnuplot-iostream/wiki)

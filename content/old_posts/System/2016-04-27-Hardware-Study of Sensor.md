@@ -7,7 +7,7 @@ tags = ["sensors"]
 
 {% include toc %}
 
-To develope products using sensors, it is essential to have a knowledge of variety of sensors. This page lists type of sensors, demonstrates about its characteristics and how they can be applied to the real world.
+To develop products using sensors, it is essential to know various sensors. This page lists types of sensors, demonstrates its characteristics, and how they can be applied to the real world.
 
 # Distance Sensor
 
@@ -36,14 +36,14 @@ Ultrasonic sensors often enhances **distance measurement** to the object very ac
 
 ## Infrared
 
-One of the great features of using infrared sensor is thermal emission. This enhances object come and go by thermal emission. However, thermal emission should be taken carefully depends on environmental factors. the sensor only able to detect object within a range but cannot accurately sense distnace.
+One of the great features of using an infrared sensor is thermal emission. This enhances object come and go by thermal emission. However, thermal emission should be taken carefully depends on environmental factors. the sensor only able to detect an object within a range but cannot accurately sense distance.
 
 | PARTS          | Datasheet |
 |----------------|-----------|
 | Infrared Sensor Switch |[![Foo](/images/adobe_PDF_file_icon_32x32.png)]() |
 | Compound Eye  |[![Foo](/images/adobe_PDF_file_icon_32x32.png)]() |
 
-Compound eye sensor is consisted of a number of infrared-sensitive transistor and LED
+Compound eye sensor is consisted of some infrared-sensitive transistors and LED
 
 **Types:**
 
@@ -56,12 +56,12 @@ Detects returned sent light from infrared. This notifies distance in a range.
 
 **Applications:**
 
-Hand Dryer, Water tab, rubish bin.
+Hand Dryer, Water tab, rubbish bin.
 
 # Smoke and Gas Sensor
 
-There are variety of sensors which senses different kind of chemicals as show below.
-MQ2 is one of the cheapest Analog sensor used among developers.
+There are a variety of sensors which senses a different kind of chemicals as shown below.
+MQ2 is one of the cheapest Analog sensors used among developers.
 
 | PARTS          | Application | Datasheet |
 |----------------|------|-----------|

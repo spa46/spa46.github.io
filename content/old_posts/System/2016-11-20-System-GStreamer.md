@@ -34,16 +34,16 @@ To troubleshoot above, These are the steps I checked:
 
 2. There is high probability that the line:
 
-		pipeline = gst_parse_launch ("playbin2 uri=file://E:/test_1.MOV", NULL);
+        pipeline = gst_parse_launch ("playbin2 uri=file://E:/test_1.MOV", NULL);
 
-	returns NULL and and the rest of errors are result of this.
+    returns NULL and the rest of errors are the result of this.
 
-	Why it could return NULL? <br>
-	There could be many reasons. For example, you might not installed plugin such as "playbin2".
+    Why it could return NULL? <br>
+    There could be many reasons. For example, you might not install plugin such as "playbin2".
 
-	Try this:
+    Try this:
 
-	Pass a pointer to GError structure as second parameter to gst_parse_launch (it has a message field which can give you some hint)
+    Pass a pointer to GError structure as the second parameter to gst_parse_launch (it has a message field which can give you some hint)
 
-		Pass --gst-debug-level=4 or even higher as a commandline parameter
-		to analyze your error throughout console clearly when running your program.
+        Pass --gst-debug-level=4 or even higher as a command-line parameter
+        to analyze your error throughout the console clearly when running your program.

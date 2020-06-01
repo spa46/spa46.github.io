@@ -1,5 +1,5 @@
 +++
-title = "Min-Max Median Heap: Array vs Priority Queue"
+title = "Min-Max Median Heap"
 date = 2016-10-19
 weight = 400
 tags = ["Heap", "MinMax-Heap", "Median-Heap"]
@@ -11,8 +11,8 @@ One of the way of getting track of median in real-time: using two heaps (Min & M
 
 Design of Algorithm:
 
-	1. compare value with median
-	2. if the value is smaller than median, insert it to Max heap,
+	1. compare the value with median
+	2. if the value is smaller than the median, insert it to Max heap,
 	     else Min heap
 	3. balance two trees: the difference of size of the node should be under 1,
 		 otherwise, pop root from the bigger size heap and push it into smaller size heap.
@@ -25,6 +25,6 @@ Design of Algorithm:
 
  # Latency comparison
 
- From the graph, median using priority queue shows high latency comapre to that of using array. To program priority queue, I used C++ queue library, and for an array, I made my own implementation, swap node (write operation) every time it compares. So this algorithm could have been optimized as write operation takes more time than read(access) operation.
+ From the graph, the median using priority queue shows high latency compare to that of using an array. To program a priority queue, I used C++ queue library, and for an array, I made my implementation, swap node (write operation) every time it compares. So this algorithm could have been optimized as write operation takes more time than read(access) operation.
 
 ![gnuplot](/images/algorithm/minmax/heap.png)
